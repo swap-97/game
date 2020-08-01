@@ -1,0 +1,117 @@
+body{
+  background-color:	#ff69b4;
+
+}
+
+h1,h2{
+  font-family: 'Molle',cursive;
+  text-align: center;
+  padding: 2rem;
+  font-size: 45px;
+}
+
+h3{
+  font-family: 'Charmonman', cursive;
+}
+
+em{
+  font-family: 'Charmonman', cursive;
+}
+p{
+
+  padding: 1rem;
+  text-align: center;
+  font-size: 30px;
+}
+
+#header-part{
+  background-color: #E42539;
+  color: white;
+
+}
+
+
+
+.image-back{
+  opacity: 60;
+  display: inline;
+  margin-left: 570px;
+}
+
+.form-group1{
+  width:400px;
+  margin-left: 550px;
+  font-family: 'Charmonman', cursive;
+  padding-bottom: 20px;
+}
+
+.form-group2{
+  width:400px;
+  margin-left: 550px;
+  font-family: 'Charmonman', cursive;
+  padding-bottom: 20px;
+}
+
+.after-effect{
+  font-family: 'Charmonman', cursive;
+  text-align: center;
+  font-size: 200%;
+}
+
+.btn{
+  margin-left: 550px;
+  font-family: 'Charmonman', cursive;
+}
+
+.footer-1{
+  opacity: 60;
+  display: inline;
+  margin-left: 570px;
+}
+.footer-2{
+  background-color: #E42539;
+  font-family: 'Charmonman', cursive;
+  color: white;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+@media (max-width: 1050px){
+  .image-back{
+    margin-left: 300px;
+  }
+  .form-group1{
+    margin-left: 250px;
+  }
+  .form-group2{
+    margin-left: 250px;
+  }
+
+  .btn{
+    margin-left: 300px;
+  }
+
+  .footer-1{
+    margin-left: 300px;
+  }
+  }
+
+@media (max-width: 700px){
+  .image-back{
+    margin-left: 100px;
+  }
+  .form-group1{
+    margin-left: 50px;
+  }
+  .form-group2{
+    margin-left: 50px;
+  }
+
+  .btn{
+    margin-left: 100px;
+  }
+
+  .footer-1{
+    margin-left: 100px;
+  }
+}
